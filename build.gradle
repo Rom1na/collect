@@ -11,7 +11,9 @@ buildscript {
         classpath 'org.ow2.asm:asm:7.3.1' // https://github.com/jacoco/jacoco/issues/639#issuecomment-355424756
         classpath 'org.jacoco:org.jacoco.core:0.8.5'
         classpath 'io.fabric.tools:gradle:1.31.2'
-        classpath 'com.google.firebase:perf-plugin:1.3.1'
+      //  classpath 'com.google.firebase:perf-plugin:1.3.1'
+         //  problema con firebase en runtime
+        //  https://forum.getodk.org/t/firebase-runtime-error-in-android-studio-of-latest-odk-collect-app-downloaded-from-github-this-morning/25563/5
     }
 }
 

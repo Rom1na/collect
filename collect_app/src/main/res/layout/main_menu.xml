@@ -44,52 +44,64 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/enter_data"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
+                        android:background="@drawable/btn_rounded"
+                        android:textColor="@android:color/black"
                         tools:text="@string/enter_data" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/review_data"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
+                        android:background="@drawable/btn_rounded"
+                        android:textColor="@android:color/black"
                         tools:text="@string/review_data" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/send_data"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
+                        android:background="@drawable/btn_rounded"
+                        android:textColor="@android:color/black"
                         tools:text="@string/send_data" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/view_sent_forms"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
-                        android:text="@string/view_sent_forms" />
+                        android:background="@drawable/btn_rounded"
+                        android:text="@string/view_sent_forms"
+                        android:textColor="@android:color/black" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/get_forms"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
+                        android:background="@drawable/btn_rounded"
+                        android:textColor="@android:color/black"
                         tools:text="@string/get_forms" />
 
-                    <com.google.android.material.button.MaterialButton
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/manage_forms"
                         style="@style/Widget.Collect.Button.MainMenu"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/margin_extra_small"
+                        android:background="@drawable/btn_rounded"
+                        android:textColor="@android:color/black"
                         tools:text="@string/manage_files" />
 
                     <TextView

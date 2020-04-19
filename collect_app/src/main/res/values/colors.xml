@@ -22,6 +22,7 @@ the License.
     <color name="amber_500">#FFC107</color>
 
     <color name="highContrastHighlight">#ff8c00</color>
+    <color name="amarillo_ba">#FDD306</color>
 
     <!-- Background colors in the GeoTrace status bar, under white text. -->
     <color name="locationStatusSearching">#333333</color>
