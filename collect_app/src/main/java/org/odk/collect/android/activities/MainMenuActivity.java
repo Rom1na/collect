@@ -391,7 +391,7 @@ public class MainMenuActivity extends CollectAbstractActivity implements AdminPa
 
     private void initToolbar() {
         Toolbar toolbar = findViewById(R.id.toolbar);
-        setTitle(String.format("%s %s", getString(R.string.app_name), viewModel.getVersion()));
+        setTitle(String.format("%s ", getString(R.string.app_name), viewModel.getVersion()));
         setSupportActionBar(toolbar);
     }
 
