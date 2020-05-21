@@ -74,7 +74,7 @@ android {
     compileSdkVersion(28)
 
     defaultConfig {
-        applicationId('ar.gob.buenosaires.barelevamiento')
+        applicationId('org.odk.collect.android')
         minSdkVersion(21)
         targetSdkVersion(28)
         versionCode LEGACY_BUILD_NUMBER_OFFSET + getMasterCommitCount()

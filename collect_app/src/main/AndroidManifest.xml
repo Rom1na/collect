@@ -9,7 +9,7 @@ the specific language governing permissions and limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ar.gob.buenosaires.barelevamiento"
+    package="org.odk.collect.android"
     tools:ignore="GoogleAppIndexingWarning">
 
     <uses-feature
@@ -183,11 +183,11 @@ the specific language governing permissions and limitations under the License.
 
         <provider
             android:name=".provider.FormsProvider"
-            android:authorities="ar.gob.buenosaires.barelevamiento.provider.odk.forms"
+            android:authorities="org.odk.collect.android.provider.odk.forms"
             android:exported="true" />
         <provider
             android:name=".provider.InstanceProvider"
-            android:authorities="ar.gob.buenosaires.barelevamiento.provider.odk.instances"
+            android:authorities="org.odk.collect.android.provider.odk.instances"
             android:exported="true" />
 
         <activity-alias
@@ -238,7 +238,7 @@ the specific language governing permissions and limitations under the License.
             android:name=".activities.FormDownloadList"
             android:targetActivity=".activities.FormDownloadListActivity">
             <intent-filter>
-                <action android:name="ar.gob.buenosaires.barelevamiento.FORM_DOWNLOAD" />
+                <action android:name="org.odk.collect.android.FORM_DOWNLOAD" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="vnd.android.cursor.dir/vnd.odk.form" />
             </intent-filter>
@@ -259,7 +259,7 @@ the specific language governing permissions and limitations under the License.
             android:name=".activities.InstanceUploaderActivity"
             android:targetActivity=".activities.InstanceUploaderActivity">
             <intent-filter>
-                <action android:name="ar.gob.buenosaires.barelevamiento.INSTANCE_UPLOAD" />
+                <action android:name="org.odk.collect.android.INSTANCE_UPLOAD" />
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:mimeType="vnd.android.cursor.dir/vnd.odk.instance" />
             </intent-filter>
