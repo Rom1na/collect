@@ -44,3 +44,9 @@ javarosa/
 
 # Config for the official ODK Collect build
 collect_app/src/odkCollectRelease/
+
+
+# Servicios de google de ar.gob.buenosaires.barelevamiento
+collect_app/google-services.json
+collect_app/src/debug/google-services.json
+collect_app/src/release/google-services.json

@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "462257085307",
-    "firebase_url": "https://opendatakit-debug.firebaseio.com",
-    "project_id": "opendatakit-debug",
-    "storage_bucket": "opendatakit-debug.appspot.com"
+    "project_number": "587608257080",
+    "firebase_url": "https://ba-relevamiento.firebaseio.com",
+    "project_id": "ba-relevamiento",
+    "storage_bucket": "ba-relevamiento.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:462257085307:android:64acb5e3c9e68ab5173bde",
+        "mobilesdk_app_id": "1:587608257080:android:64690b625907a6602beccd",
         "android_client_info": {
-          "package_name": "org.odk.collect.android"
+          "package_name": "ar.gob.buenosaires.barelevamiento"
         }
       },
       "oauth_client": [
         {
-          "client_id": "462257085307-o9ll0ogq8jm4ta3q9av2mf2rh4ume9vj.apps.googleusercontent.com",
+          "client_id": "587608257080-jbeeojl65ue7qbf7fm6va51lrhujuf8i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAClt29XaVTTO1m2R9u3WW-RimapSqjALg"
+          "current_key": "AIzaSyAIQKLtcGMdZjgiugQ5sUdyczzczU9UmGU"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "462257085307-o9ll0ogq8jm4ta3q9av2mf2rh4ume9vj.apps.googleusercontent.com",
+              "client_id": "587608257080-jbeeojl65ue7qbf7fm6va51lrhujuf8i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
